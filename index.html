@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Quicksand:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    
+    <div class="container">
+      <div class="wrapper">
+        <div id="myDIV" class="header">
+          <h1>Todo List</h1>
+          <div class="frogContainer">
+            <div class="frogPosition"><img src= "assets\frog1.png" class='frog'></div>
+            <div class="frogPosition2"><img src= "assets\frog2.png" class='frog'></div>
+            <div class="frogPosition2"><img src= "assets\frog3.png" class='frog'></div>
+            <div class="frogPosition2"><img src= "assets\frog4.png" class='frog'></div>
+            <div class="frogPosition2"><img src= "assets\frog5.png" class='frog'></div>
+
+          </div>
+          <div class="userInput">
+            <input type="text" id="myInput" placeholder="Todo:" />
+            <span onclick="newElement()" class="addBtn">
+              <i class="fa-solid fa-plus"></i>
+            </span>
+          </div>
+        </div>
+
+        <ul id="UL"></ul>
+      </div>
+    </div>
+    
+  </body>
+</html>

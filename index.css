@@ -1,0 +1,167 @@
+/* Include the padding and border in an element's total width and height */
+* {
+  font-family: 'Quicksand', sans-serif;
+  box-sizing: border-box;
+  color: #03543f;
+}
+
+.html {
+  background-color: #f3faf7;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  
+  width: 70%;
+}
+
+.frogContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.frog{
+  width: 50%;
+  height:auto;
+}
+
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;  
+
+}
+
+ul li {
+  color: #03543f;
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: #bcf0da;
+  font-size: 18px;
+  transition: 0.2s;
+  border-radius: 15px;
+  border-color: #03543f;
+
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+ul li:nth-child(odd) {
+  background: #84e1bc;
+}
+
+ul li:hover {
+  background: #84e1bc;
+}
+
+ul li.checked {
+  background: #62b6cb;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+ul li.checked::before {
+  content: '';
+  position: absolute;
+  border-color: #62b6cb;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+  border-radius: 15px;
+}
+
+.close:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.header {
+  background-color: #31c48d;
+  padding: 30px 40px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.userInput {
+  border: none;
+  color: #def7ec;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 15px;
+}
+
+
+.addBtn {
+  padding: 10px;
+  background: #def7ec;
+  color: #014737;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 15px;
+}
+
+.addBtn:hover {
+  background-color: #f3faf7;
+}
+
+
+.ok-button{
+  border: none;
+  border-radius: 20px;
+  max-height:150px;
+  
+}
+
+
+#UL li h5 {
+  font-size: 3vh;
+  font-weight: bold;
+
+}
+
+#UL li p {
+  font-weight: normal;
+
+
+}
