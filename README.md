@@ -1,5 +1,5 @@
 # FroggerToDo
 
-TodoApp frog themed.
-try it:
+Frog themed Todolist-App.
+Try it:
 https://frogger-todo.netlify.app
